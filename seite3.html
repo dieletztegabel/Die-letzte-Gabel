@@ -8,13 +8,13 @@
         body{
             background-color: #C5B9A5;
             background: radial-gradient(circle, #C5B9A5 40%, #cccccc 130%);
-            height: 100vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             margin: 0;
             color: #2B2620;
+            min-height: 100vh;
 
         }
 
@@ -22,34 +22,39 @@
             background-color: #C5B9A5;
             display: block;
             text-align: center;
-            margin: 0
+            margin: 0;
             padding-top: 40px;
             padding-bottom: 20px;
-            font-family: 'Georiga', serif;
+            font-family: 'Georgia', serif;
             font-size: 60px;
-            letter-spacing: 5px;
+            letter-spacing: 3px;
             font-style: italic;
             color:#2c3e50; 
+            width: 100%
 
         }
 
-        .Spielregeln-Bild{
-             width: 80%;
-            display: block;
-            margin: 150px auto 20px auto;
-            max-width: 600%S;
-        
-        }
 
         .container {
-            max-width: 600px;
-            margin-top:  180px;
+            max-width: 800px;
+            margin-top:  20px;
             background-color: white;
             display: felx;
             flex-direction: column;
             padding: 20px;
             border-radius: 20p
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1)
             align-items: center;
+        }
+
+
+        .Spielregeln-Bild{
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            display: block;
+            border-radius: 10px;
+        
         }
 
          nav{
