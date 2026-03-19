@@ -162,51 +162,6 @@
     <h1>Spielregeln</h1>
     <div class="container">
         <img src="Spielregeln1.png" alt="Spielregeln" class="Spielregeln-Bild">
-    
-    </div>
-    <div class="form-container">
-        <h2>Dein Verdacht</h2>
-        <p>Wer ist der Mörder und warum? Teile uns deinen Tipp mit!</p>
-        <form action="#" method="post">
-            <div class="form-group">
-                <label for="name">Dein Name:</label>
-                <input type="text" id="name" name="name" required>
-            </div>
-            <div class="form-group">
-                <label for="verdacht">Dein Verdacht:</label>
-                <textarea id="verdacht" name="verdacht" rows="5" required></textarea>
-            </div>
-            <div class="form-group">
-                <label for="beweis">Dein Beweis (optional):</label>
-                <input type="text" id="beweis" name="beweis">
-            </div>
-            <button type="submit">Verdacht absenden</button>
-        </form> 
-    </div>
-
-    <nav>
-        <a href="index.html">Home</a>  
-        <a href="seite1.html">Charakter</a> 
-        <a href="seite2.html">Outfit</a> 
-    </nav>
-    <script>
-    function sendeVerdacht() {
-    const bereich = document.getElementById('form-bereich');
-
-    bereich.innerHTML = `
-        <div style="text-align: center; padding: 20px; border: 2px dashed #721c24; border-radius: 15px; background: #fdf2e2;">
-            <h3 style="color: #721c24;">🚨 Beweis gesichert!</h3>
-            <p>Dein Verdacht wurde im System gespeichert. Die Ermittler melden sich bei dir, falls weitere Fragen bestehen.</p>
-            <span style="font-weight: bold; color: #9f6236;">Fallnummer: #4829-K</span>
-        </div>
-    `;
-}
-</script>
- </body>
- </html><body>
-    <h1>Spielregeln</h1>
-    <div class="container">
-        <img src="Spielregeln1.png" alt="Spielregeln" class="Spielregeln-Bild">
     </div>
 
     <div id="form-bereich" class="form-container">
@@ -248,3 +203,4 @@
     }
     </script>
 </body>
+</html>
